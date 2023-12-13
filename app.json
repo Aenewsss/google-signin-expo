@@ -18,13 +18,21 @@
       "supportsTablet": true
     },
     "android": {
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.walkr.GoogleExpo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "895473e4-b1ab-4347-a8e5-cd5bead2ee4b"
+      }
+    },
+    "plugins": ["@react-native-google-signin/google-signin"]
   }
 }
